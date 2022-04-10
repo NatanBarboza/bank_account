@@ -1,5 +1,5 @@
 class People():
-    def __init__(self, name, age, identity, address):
+    def __init__(self, name:str, age:int, identity:str, address:str):
         self.__name = name
         self.__age = age 
         self.__identity = identity
